@@ -142,3 +142,31 @@ button:hover {
     font-size: 1rem;
   }
 }
+
+/* ESTILO DO CATALAGO INICIAL DOS MINIGAMES */
+.pedagogical-goal {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.game-button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+}
+
+.game-button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  transform: none;
+}
